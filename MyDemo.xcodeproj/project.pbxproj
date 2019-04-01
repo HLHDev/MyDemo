@@ -15,6 +15,7 @@
 		489C567E22519DDF00AA1318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C567D22519DDF00AA1318 /* main.m */; };
 		489C568822519DDF00AA1318 /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C568722519DDF00AA1318 /* MyDemoTests.m */; };
 		489C569322519DDF00AA1318 /* MyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C569222519DDF00AA1318 /* MyDemoUITests.m */; };
+		489C56A222519F4E00AA1318 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C56A122519F4E00AA1318 /* UIButton+EnlargeEdge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		489C568E22519DDF00AA1318 /* MyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489C569222519DDF00AA1318 /* MyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoUITests.m; sourceTree = "<group>"; };
 		489C569422519DDF00AA1318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489C56A022519F4E00AA1318 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		489C56A122519F4E00AA1318 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				489C566F22519DDD00AA1318 /* AppDelegate.m */,
 				489C567122519DDD00AA1318 /* ViewController.h */,
 				489C567222519DDD00AA1318 /* ViewController.m */,
+				489C56A022519F4E00AA1318 /* UIButton+EnlargeEdge.h */,
+				489C56A122519F4E00AA1318 /* UIButton+EnlargeEdge.m */,
 				489C567422519DDD00AA1318 /* Main.storyboard */,
 				489C567722519DDF00AA1318 /* Assets.xcassets */,
 				489C567922519DDF00AA1318 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				489C567322519DDD00AA1318 /* ViewController.m in Sources */,
+				489C56A222519F4E00AA1318 /* UIButton+EnlargeEdge.m in Sources */,
 				489C567E22519DDF00AA1318 /* main.m in Sources */,
 				489C567022519DDD00AA1318 /* AppDelegate.m in Sources */,
 			);
